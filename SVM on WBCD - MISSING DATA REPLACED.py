@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[30]:
+# In[1]:
 
 
 import pandas as pd
@@ -16,7 +16,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[31]:
 
 
-data_set = pd.read_csv(r"D:\MSc\Semester 1\CS5612 - Pattern Recognition\Assignment 3\WBCD\breast-cancer-wisconsin.data_MISSING_DATA_ROWS_REPLACEDx.csv")
+data_set = pd.read_csv("breast-cancer-wisconsin.data_MISSING_DATA_ROWS_REPLACEDx.csv")
 
 
 # In[32]:
